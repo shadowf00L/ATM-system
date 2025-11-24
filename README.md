@@ -1,1 +1,127 @@
 # ATM-system
+PROJECT TITLE: ATM INTERFACE SYSTEM
+
+OVERVIEW OF THE PROJECT: This project is designed for understanding of real-world ATM Systems work by applying core Python concepts such as functions, conditional statements, loops , file/module management.
+
+⭐ FEATURES :
+
+ 1. Secure Login System
+    
+User must enter the correct PIN.
+Only 3 attempts allowed.
+After 3 failed attempts → Card is temporarily blocked.
+
+
+ 2. Check Account Balance
+
+Displays:
+Account Holder Name
+Account Number
+Available Balance
+Date and Time
+Well-formatted summary screen
+
+ 3. Deposit Money
+    
+User can deposit any valid (positive) amount.
+Updated balance displayed instantly.
+
+
+ 5. Withdraw Money
+
+User can withdraw only if there is sufficient balance.
+Validates negative or zero inputs.
+
+
+ 6. User-Friendly Menu
+
+Loop-based menu for continuous use until the user exits.
+
+TECHNOLOGIES USED:
+
+Component	Description:
+
+1. Python	Main programming language
+2. datetime module	Displays current date and time in balance summary
+3. Functions	For modular code (login, deposit, withdraw, check balance)
+
+ 
+ Steps to Install and Run the Project
+
+1. Install Python
+
+Make sure Python is installed.
+Download from: https://www.python.org/downloads/
+
+2. Create a Project Folder
+
+
+3. Create a Python File
+
+Inside the folder, create a file
+
+4. Copy the Code
+
+Paste the full ATM code into the folder.
+
+5. Run the Program
+
+Open a terminal or command prompt 
+
+The ATM menu will appear on screen.
+
+
+
+Instructions for Testing the Project
+
+1. Test Login System
+   
+Enter wrong PIN → attempts decrease
+
+After 3 attempts → card blocked
+
+Enter correct PIN → login successful
+
+
+2. Test Deposit Function
+
+Try depositing:
+
+Positive amount → balance updates
+
+Zero or negative → error message
+
+
+
+3. Test Withdrawal Function
+
+Withdraw amount less than balance → success
+
+Withdraw more than balance → “Insufficient balance”
+
+Withdraw zero/negative → invalid message
+
+
+4. Test Check Balance
+
+Should show:
+
+Name
+
+Account number
+
+Updated balance
+
+Date & time
+
+
+
+5. Test Exit
+
+Choose option “5” to quit the program.
+
+
+
+
+
+
