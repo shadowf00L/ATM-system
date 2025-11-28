@@ -18,7 +18,6 @@ Displays:
 Account Holder Name
 Account Number
 Available Balance
-Date and Time
 Well-formatted summary screen
 
  3. Deposit Money
@@ -106,13 +105,7 @@ Withdraw zero/negative → invalid message
 
 Should show:
 
-Name
-
-Account number
-
 Updated balance
-
-Date & time
 
 
 
