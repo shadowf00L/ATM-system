@@ -30,4 +30,4 @@ def withdraw_amount():
     print("Please collect your cash and recepit.\n")
 
 if __name__ == "__main__":
-   withdraw_amount() 
+   withdraw_amount()    
